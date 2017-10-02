@@ -1,0 +1,16 @@
+Elm LiveCoding Demo
+===================
+
+This is a simple way to do livecoding using Elm (similar to Figwheel in Clojurescript). The livecoding script is in Go so make sure you have Golang installed before trying it!
+
+Try it out:
+```
+$> git clone https://github.com/theproductiveprogrammer/015-ElmLive.git
+$> cd 015-ElmLive
+$> go get github.com/gorilla/websocket
+$> cd examples/clock/
+$> go run ../../elm-live.go clock.elm
+```
+
+Point your browser at localhost:8000 and your're ready to go!
+
