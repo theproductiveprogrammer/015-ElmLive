@@ -12,5 +12,18 @@ $> cd examples/clock/
 $> go run ../../elm-live.go clock.elm
 ```
 
-Point your browser at localhost:8000 and your're ready to go!
+Point your browser at localhost:8080 and you are ready to go!
+
+
+Auto Save in Vim
+----------------
+
+If you are using vim and would like a faster cycle you can arrange for vim to autosave as you type by adding these commands:
+
+set ut=250
+au CursorHold <buffer> update
+au CursorHoldI <buffer> update
+
+
+
 
